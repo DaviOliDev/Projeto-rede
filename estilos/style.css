@@ -49,7 +49,9 @@ section#redes-sociais img {
     width: 50px;
     margin: 10px;
     border-radius: 50%;
-    display: block;
+    display: inline-block;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
     transition: all ease 0.3s;
 }
 
@@ -58,5 +60,5 @@ section#redes-sociais img:hover {
 }
 
 section#redes-sociais {
-    text-align: left;
+    text-align: right;
 }
